@@ -1,0 +1,1 @@
+-t --log_level=info --log_format=plain
