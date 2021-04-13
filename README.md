@@ -8,7 +8,7 @@ Mainnet configurations for public [Provenance.io](https://provenance.io) network
 | pio-mainnet-1 | tbd              | tbd          | tbd                  | tbd                  |
 
 
-## Upcoming Public Test Networks
+## Upcoming Public Networks
 
 | Name          | Software Version | Wasm Verison | Genesis Finalized    | Network Start        |
 |---------------|------------------|--------------|----------------------|----------------------|
