@@ -74,7 +74,7 @@
             {
               "address": "pb1rt4acda58vudxq7cn3nj7h8txgkq43hawyr4kg",
               "permissions": [
-                "ADMIN",
+                "ACCESS_ADMIN",
                 "ACCESS_WITHDRAW"
               ]
             }
