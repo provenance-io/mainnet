@@ -74,13 +74,14 @@
             {
               "address": "pb1rt4acda58vudxq7cn3nj7h8txgkq43hawyr4kg",
               "permissions": [
+                "ADMIN",
                 "ACCESS_WITHDRAW"
               ]
             }
           ],
           "status": "MARKER_STATUS_ACTIVE",
           "denom": "nhashtrust",
-          "supply": "1",
+          "supply": "0",
           "marker_type": "MARKER_TYPE_COIN",
           "supply_fixed": false,
           "allow_governance_control": true
