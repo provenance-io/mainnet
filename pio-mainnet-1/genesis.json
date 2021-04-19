@@ -80,7 +80,7 @@
           ],
           "status": "MARKER_STATUS_ACTIVE",
           "denom": "nhashtrust",
-          "supply": "0",
+          "supply": "1",
           "marker_type": "MARKER_TYPE_COIN",
           "supply_fixed": false,
           "allow_governance_control": true
