@@ -47,7 +47,7 @@
         {
           "@type": "/provenance.marker.v1.MarkerAccount",
           "base_account": {
-            "address": "pb1pa58ucdd8x0qsc2defph8pa6kp75vtte2rrj7x",
+            "address": "pb1pr93cqdh4kfnmrknhwa87a5qrwxw9k3dya4wr9",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -119,7 +119,7 @@
               "amount": "1000000000"
             }
           ]
-        }
+        },
         {
           "address": "pb14vqus2leu2cph04jcf9yfxueghasrasfh45g8y",
           "coins": [
