@@ -64,7 +64,7 @@
         {
           "@type": "/provenance.marker.v1.MarkerAccount",
           "base_account": {
-            "address": "pb12sns7wg7ygffzcljgq6a20q60vmr4cpw4sqhxv",
+            "address": "pb1dkh57lrlugjzcskfys64dhr8khwwfaxleevmtq",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -79,7 +79,7 @@
             }
           ],
           "status": "MARKER_STATUS_ACTIVE",
-          "denom": "nhash-trust",
+          "denom": "nhashtrust",
           "supply": "0",
           "marker_type": "MARKER_TYPE_COIN",
           "supply_fixed": false,
