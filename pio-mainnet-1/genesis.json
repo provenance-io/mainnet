@@ -39,7 +39,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "tbd",
+          "address": "pb1v2km7r7fsuvsqk48fx743727p3d4tq6q80pdq7",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -47,7 +47,24 @@
         {
           "@type": "/provenance.marker.v1.MarkerAccount",
           "base_account": {
-            "address": "tbd",
+            "address": "pb1pa58ucdd8x0qsc2defph8pa6kp75vtte2rrj7x",
+            "pub_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          },
+          "manager": "",
+          "access_control": [],
+          "status": "MARKER_STATUS_ACTIVE",
+          "denom": "nhash",
+          "supply": "100000000000000000000",
+          "marker_type": "MARKER_TYPE_COIN",
+          "supply_fixed": true,
+          "allow_governance_control": true
+        },
+        {
+          "@type": "/provenance.marker.v1.MarkerAccount",
+          "base_account": {
+            "address": "pb12sns7wg7ygffzcljgq6a20q60vmr4cpw4sqhxv",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -55,17 +72,17 @@
           "manager": "",
           "access_control": [
             {
-              "address": "tbd",
+              "address": "pb1rt4acda58vudxq7cn3nj7h8txgkq43hawyr4kg",
               "permissions": [
                 "ACCESS_WITHDRAW"
               ]
             }
           ],
           "status": "MARKER_STATUS_ACTIVE",
-          "denom": "nhash",
-          "supply": "100000000000000000000",
+          "denom": "nhash-trust",
+          "supply": "0",
           "marker_type": "MARKER_TYPE_COIN",
-          "supply_fixed": true,
+          "supply_fixed": false,
           "allow_governance_control": true
         }
       ]
@@ -77,32 +94,68 @@
       },
       "balances": [
         {
-          "address": "tbd",
+          "address": "pb1vhv7wv5z5v5ecf3en4psmpe2vs8q4r63k6n4wa",
           "coins": [
             {
               "denom": "nhash",
-              "amount": "10000000000000000"
+              "amount": "1000000000"
             }
           ]
         },
         {
-          "address": "tbd",
+          "address": "pb1v2km7r7fsuvsqk48fx743727p3d4tq6q80pdq7",
           "coins": [
             {
               "denom": "nhash",
-              "amount": "10000000000000000"
+              "amount": "1000000000"
             }
           ]
         },
         {
-          "address": "tbd",
+          "address": "pb1rt4acda58vudxq7cn3nj7h8txgkq43hawyr4kg",
           "coins": [
             {
               "denom": "nhash",
-              "amount": "10000000000000000"
+              "amount": "1000000000"
             }
           ]
-        }
+        } 
+        {
+          "address": "pb14vqus2leu2cph04jcf9yfxueghasrasfh45g8y",
+          "coins": [
+            {
+              "denom": "nhash",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "pb1gwsm6hpsawz2su0ueguv5pujaqwhftdnprhjm6",
+          "coins": [
+            {
+              "denom": "nhash",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "pb1vg53y4xugenlawrfyn6phnsv7230gtlhzhpmtt",
+          "coins": [
+            {
+              "denom": "nhash",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "pb1cg9y6z8l02hhax4lp8qcdsw8gfzvevpvep46nl",
+          "coins": [
+            {
+              "denom": "nhash",
+              "amount": "1000000000000"
+            }
+          ]
+        } 
       ],
       "supply": [],
       "denom_metadata": []
@@ -147,27 +200,105 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "validator-us-central1-0",
+                  "moniker": "dc-validator-0",
                   "identity": "",
                   "website": "https://figure.com",
                   "security_contact": "security@figure.com",
                   "details": "Figure's validator"
                 },
                 "commission": {
-                  "rate": "1.000000000000000000",
-                  "max_rate": "1.000000000000000000",
-                  "max_change_rate": "1.000000000000000000"
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "tbd",
-                "validator_address": "tpvaloper tbd",
+                "delegator_address": "pb14vqus2leu2cph04jcf9yfxueghasrasfh45g8y",
+                "validator_address": "pbvaloper14vqus2leu2cph04jcf9yfxueghasrasfczccx7",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "tbd="
+                  "key": "3V2L6gdRP2HEW4CFHccb4bUcRPisXzR6AAVznfCZ9Ek="
                 },
                 "value": {
                   "denom": "nhash",
-                  "amount": "100000000000000000"
+                  "amount": "1000000000000"
+                }
+              },
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "dc-validator-1",
+                  "identity": "",
+                  "website": "https://figure.com",
+                  "security_contact": "security@figure.com",
+                  "details": "Figure's validator"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "pb1gwsm6hpsawz2su0ueguv5pujaqwhftdnprhjm6",
+                "validator_address": "pbvaloper1gwsm6hpsawz2su0ueguv5pujaqwhftdnw5mz6q",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "zqyBpZ5pjNsflf+Ko7oJosGS+Qhtepln5cd/rbnMq/k="
+                },
+                "value": {
+                  "denom": "nhash",
+                  "amount": "1000000000000"
+                }
+              },
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "sv-validator-0",
+                  "identity": "",
+                  "website": "https://figure.com",
+                  "security_contact": "security@figure.com",
+                  "details": "Figure's validator"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "pb1vg53y4xugenlawrfyn6phnsv7230gtlhzhpmtt",
+                "validator_address": "pbvaloper1vg53y4xugenlawrfyn6phnsv7230gtlhdqdt23",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Yvw9jX/dk49wPxZFVBf0C/3Qd/K+4EQl5pfch45y7Yc="
+                },
+                "value": {
+                  "denom": "nhash",
+                  "amount": "1000000000000"
+                }
+              },
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "sv-validator-1",
+                  "identity": "",
+                  "website": "https://figure.com",
+                  "security_contact": "security@figure.com",
+                  "details": "Figure's validator"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "pb1cg9y6z8l02hhax4lp8qcdsw8gfzvevpvep46nl",
+                "validator_address": "pbvaloper1cg9y6z8l02hhax4lp8qcdsw8gfzvevpvkke2j9",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "DZS6uwMThrReapYwDNQm5h7DsdNyDyWl4UcNSBJT2fk="
+                },
+                "value": {
+                  "denom": "nhash",
+                  "amount": "1000000000000"
                 }
               }
             ],
@@ -259,8 +390,9 @@
     },
     "marker": {
       "params": {
+        "enable_governance": true,
         "max_total_supply": "100000000000",
-        "enable_governance": true
+        "unrestricted_denom_regex": "[a-zA-Z][a-zA-Z0-9/]{7,64}"
       },
       "markers": []
     },
@@ -297,12 +429,12 @@
       "bindings": [
         {
           "name": "provenance",
-          "address": "tbd",
+          "address": "pb1v2km7r7fsuvsqk48fx743727p3d4tq6q80pdq7",
           "restricted": true
         },
         {
           "name": "pb",
-          "address": "tbd",
+          "address": "pb1v2km7r7fsuvsqk48fx743727p3d4tq6q80pdq7",
           "restricted": true
         }
       ]
