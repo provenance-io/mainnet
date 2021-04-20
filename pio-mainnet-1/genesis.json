@@ -137,6 +137,15 @@
       },
       "balances": [
         {
+          "address": "pb1dkh57lrlugjzcskfys64dhr8khwwfaxleevmtq",
+          "coins": [
+            {
+              "denom": "nhash",
+              "amount": "99999995993000000000"
+            }
+          ]
+        },
+        {
           "address": "pb1vhv7wv5z5v5ecf3en4psmpe2vs8q4r63k6n4wa",
           "coins": [
             {
