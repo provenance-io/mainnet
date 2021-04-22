@@ -181,10 +181,10 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = "2de841ce706e9b8cdff9af4f137e52a4de0a85b2@104.196.26.176:26656,add1d50d00c8ff79a6f7b9873cc0d9d20622614e@34.71.242.51:26656"
+seeds = "4bd2fb0ae5a123f1db325960836004f980ee09b4@seed-0.provenance.io:26656,048b991204d7aac7209229cbe457f622eed96e5d@seed-1.provenance.io:26656"
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "26240dd8c5f78c3c54196613b9c04d2d750a534e@35.232.121.26:26656,8fcbbdba4088a604d6c083dd6be19e070adc1d93@35.194.76.143:26656,1f159852f00292803d8c937d953cb3da68a25624@34.75.172.89:26656,7970256f3f8879e0152bb26e977d2139890cb59d@34.82.40.187:26656"
+persistent_peers = "9e9c66cc7e22ef2be11a02a944c4d150ed742f52@rpc-0.provenance.io:26656,738b4657416504d79af3e9bf45f4a2a813d2fbd6@rpc-1.provenance.io:26656,eea0ff9ac8c228d7827100fcb00cb9b1f5274db6@rpc-2.provenance.io:26656,87592d58ecd6a56bfb4e6fbb96111ec9a6918dc9@rpc-3.provenance.io:26656"
 
 # UPNP port forwarding
 upnp = false
