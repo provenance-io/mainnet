@@ -15,11 +15,21 @@ ENV PIO_HOME=/home/provenance \
     DAEMON_BACKUP_DATA_DIR=/home/provenance/data \
     LD_LIBRARY_PATH=/home/provenance/cosmovisor/current/bin
 
-RUN mkdir -p ${DAEMON_HOME}/cosmovisor/genesis/bin && \
-    cp /usr/bin/provenanced /usr/lib/libwasmvm.so ${DAEMON_HOME}/cosmovisor/genesis/bin/ && \
-    ln -s /home/provenance/cosmovisor/genesis /home/provenance/cosmovisor/current
-
 COPY --from=visor /usr/bin/cosmovisor /usr/bin/cosmovisor
+
+# Docker entrypoint slightly differs from node's.
+ADD docker/node/visor/docker-entrypoint.sh /docker-entrypoint.sh
+
+# Create the daemon user
+RUN useradd -ms /bin/bash -U provenance
+RUN chown -R provenance:provenance /home/provenance
+
+# Drop root privileges.
+USER provenance:provenance
+WORKDIR /home/provenance
+
+# Mount the application's home dir.
+VOLUME ["/home/provenance"]
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["sh", "-c", "/usr/bin/cosmovisor start $(cat /$CHAIN_ID/extra-args.txt)"]
