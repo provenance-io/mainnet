@@ -3,9 +3,9 @@ Mainnet configurations for public [Provenance.io](https://provenance.io) network
 
 ## Active Networks
 
-| Name          | Genesis Version | Wasm Version   | Genesis Finalized    | Network Start        |
+| Name          | Genesis Version | wasmd Version  | Genesis Finalized    | Network Start        |
 |---------------|-----------------|----------------|----------------------|----------------------|
-| pio-mainnet-1 | 1.0.1           | v0.16.0-alpha1 | 19-04-2021 16:00:00Z | 20-04-2021 16:20:00Z |
+| pio-mainnet-1 | 1.0.1           | v0.16.0        | 19-04-2021 16:00:00Z | 20-04-2021 16:20:00Z |
 
 ## Upcoming Public Networks
 
