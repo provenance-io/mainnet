@@ -12,13 +12,14 @@ Mainnet configurations for public [Provenance.io](https://provenance.io) network
 
 The following list provides the software versions in use and the blockheight when they were migrated to.
 
-| Upgrage Name  | Software Version | Wasm Version | Block Height         |
-|---------------|------------------|--------------|----------------------|
-| Genesis       | v1.0.1           | v0.16.0      | 0                    |
-| bluetiful     | v1.3.1           | v0.16.0      | 352000               |
-| citrine       | v1.4.1           | v0.16.0      | 940500               |
-| desert        | v1.5.0           | v0.17.0      | 1442070              |
-| usdf.c-hotfix | v1.6.0           | v0.17.0      | 2000000              |
+| Upgrage Name  | Software Version | Wasm Version  | Block Height         |
+|---------------|------------------|---------------|----------------------|
+| Genesis       | v1.0.1           | v0.16.0       | 0                    |
+| bluetiful     | v1.3.1           | v0.16.0       | 352000               |
+| citrine       | v1.4.1           | v0.16.0       | 940500               |
+| desert        | v1.5.0           | v0.17.0       | 1442070              |
+| usdf.c-hotfix | v1.6.0           | v0.17.0       | 2000000              |
+| feldgrau      | v1.7.5           | v0.19.0 (pio) | 2641250              |
 
 
 
