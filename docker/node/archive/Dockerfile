@@ -1,5 +1,5 @@
 # Buildtime container
-FROM debian:buster-slim
+FROM debian:bullseye-slim
 ARG CHAIN_ID
 ENV CHAIN_ID=$CHAIN_ID PIO_HOME=/home/provenance
 
@@ -8,8 +8,8 @@ RUN if [ -z "${CHAIN_ID}" ]; then echo "Build argument needs to be set and non-e
 
 ADD $CHAIN_ID/genesis-version.txt /$CHAIN_ID/genesis-version.txt
 
-RUN apt-get update && \
-    apt-get install -y ca-certificates unzip wget jq libleveldb-dev && \
+RUN apt update && \
+    apt install -y ca-certificates unzip wget jq libleveldb-dev && \
     ln -s /usr/lib/x86_64-linux-gnu/libleveldb.so.1d /usr/lib/x86_64-linux-gnu/libleveldb.so.1
 
 RUN GENESIS_VERSION="$(cat /$CHAIN_ID/genesis-version.txt)" && \
