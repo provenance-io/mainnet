@@ -10,7 +10,7 @@ Mainnet configurations for public [Provenance.io](https://provenance.io) network
 
 ### `pio-mainnet-1` Upgrades
 
-The following list provides the software versions in use and the blockheight when they were migrated to.
+The full upgrades list can be found at https://explorer.provenance.io/network/upgrades
 
 | Upgrage Name  | Software Version | Wasm Version  | Block Height         |
 |---------------|------------------|---------------|----------------------|
