@@ -1,5 +1,5 @@
 # Buildtime container
-FROM debian:bullseye-slim
+FROM debian:buster-slim
 ARG CHAIN_ID
 ENV CHAIN_ID=$CHAIN_ID PIO_HOME=/home/provenance
 
