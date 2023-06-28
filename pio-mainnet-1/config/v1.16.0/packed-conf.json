@@ -1,0 +1,14 @@
+{
+  "chain-id": "pio-mainnet-1",
+  "iavl-disable-fastnode": "false",
+  "instrumentation.namespace": "provenance",
+  "keyring-backend": "os",
+  "moniker": "changeme",
+  "node": "tcp://127.0.0.1:26657",
+  "p2p.seeds": "4bd2fb0ae5a123f1db325960836004f980ee09b4@seed-0.provenance.io:26656,048b991204d7aac7209229cbe457f622eed96e5d@seed-1.provenance.io:26656",
+  "pruning": "everything",
+  "rosetta.denom-to-suggest": "nhash",
+  "rpc.laddr": "tcp://0.0.0.0:26657",
+  "rpc.pprof_laddr": "localhost:6060",
+  "tx_index.indexer": "null"
+}
