@@ -8,3 +8,7 @@ Mainnet configurations for public [Provenance.io](https://provenance.io) network
 
 - [pio-mainnet-1](pio-mainnet-1)
 
+## Testnet
+
+See https://github.com/provenance-io/testnet for testnet information.
+
