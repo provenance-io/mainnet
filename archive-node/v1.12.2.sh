@@ -23,7 +23,7 @@ fi;
 
 # 7334444      neoncarrot       v1.12.2
 ./software/v1.12.2/provenanced --home="./node" start --log_level=warn --halt-height=8485505
-rm -rf ./data/wasm/wasm/cache
+rm -rf ./node/data/wasm/wasm/cache
 tar czf ./archive/8485505-1.12.2.tar.gz ./node/config/genesis.json ./node/config/*.toml ./node/data
 ./software/v1.12.2/provenanced --home="./node" start --log_level=warn # run until upgrade halts node
 

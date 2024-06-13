@@ -24,7 +24,7 @@ fi;
 
 # 352000       bluetiful        v1.3.1
 ./software/v1.3.1/provenanced --home="./node" start --halt-height=940450 --log_level=warn
-rm -rf ./data/wasm/wasm/cache
+rm -rf ./node/data/wasm/wasm/cache
 tar czf ./archive/940450-1.3.1.tar.gz ./node/config/genesis.json ./node/config/*.toml ./node/data
 ./software/v1.3.1/provenanced --home="./node" start --log_level=warn # run until upgrade halts node
 

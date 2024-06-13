@@ -24,7 +24,7 @@ fi;
 # 13736000     saffron          v1.17.1
 ./software/v1.17.1/provenanced pre-upgrade --home="./node"
 ./software/v1.17.1/provenanced --home="./node" start --log_level=warn --halt-height=15727300
-rm -rf ./data/wasm/wasm/cache
+rm -rf ./node/data/wasm/wasm/cache
 tar czf ./archive/15727300-1.17.1.tar.gz ./node/config/genesis.json ./node/config/*.toml ./node/data
 ./software/v1.17.1/provenanced --home="./node" start --log_level=warn # run until upgrade halts node
 

@@ -24,7 +24,7 @@ fi;
 
 # 1442070      desert           v1.5.0
 ./software/v1.5.0/provenanced --home="./node" start --log_level=warn --halt-height=1999950
-rm -rf ./data/wasm/wasm/cache
+rm -rf ./node/data/wasm/wasm/cache
 tar czf ./archive/1999950-1.5.0.tar.gz ./node/config/genesis.json ./node/config/*.toml ./node/data
 ./software/v1.5.0/provenanced --home="./node" start --log_level=warn # run until upgrade halts node
 

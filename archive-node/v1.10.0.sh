@@ -23,7 +23,7 @@ fi;
 
 # 5689885      lava             v1.10.0
 ./software/v1.10.0/provenanced --home="./node" start --log_level=warn --halt-height=6512525
-rm -rf ./data/wasm/wasm/cache
+rm -rf ./node/data/wasm/wasm/cache
 tar czf ./archive/6512525-1.10.0.tar.gz ./node/config/genesis.json ./node/config/*.toml ./node/data
 ./software/v1.10.0/provenanced --home="./node" start --log_level=warn # run until upgrade halts node
 

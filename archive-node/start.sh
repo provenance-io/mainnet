@@ -45,7 +45,7 @@ curl -s "https://raw.githubusercontent.com/provenance-io/mainnet/main/pio-mainne
 
 # 0            genesis          v1.0.1
 ./software/v1.0.1/provenanced --home="./node" start --halt-height=351990 --log_level=warn
-rm -rf ./data/wasm/wasm/cache
+rm -rf ./node/data/wasm/wasm/cache
 tar czf ./archive/351990-1.0.1.tar.gz ./node/config/genesis.json ./node/config/*.toml ./node/data
 ./software/v1.0.1/provenanced --home="./node" start --log_level=warn # run until upgrade halts node
 

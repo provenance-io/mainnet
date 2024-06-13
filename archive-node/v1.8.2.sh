@@ -23,7 +23,7 @@ fi;
 
 # 4808400      green            v1.8.2
 ./software/v1.8.2/provenanced --home="./node" start --log_level=warn --halt-height=5689850
-rm -rf ./data/wasm/wasm/cache
+rm -rf ./node/data/wasm/wasm/cache
 tar czf ./archive/5689850-1.8.2.tar.gz  ./node/config/genesis.json ./node/config/*.toml ./node/data
 ./software/v1.8.2/provenanced --home="./node" start --log_level=warn # run until upgrade halts node
 

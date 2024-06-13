@@ -23,7 +23,7 @@ fi;
 
 # 2641250      feldgrau         v1.7.6
 ./software/v1.7.6/provenanced --home="./node" start --log_level=warn --halt-height=4808390
-rm -rf ./data/wasm/wasm/cache
+rm -rf ./node/data/wasm/wasm/cache
 tar czf ./archive/4808390-1.7.6.tar.gz ./node/config/genesis.json ./node/config/*.toml ./node/data
 ./software/v1.7.6/provenanced --home="./node" start --log_level=warn # run until upgrade halts node
 

@@ -24,7 +24,7 @@ fi;
 # 11842000     rust             v1.16.0
 ./software/v1.16.0/provenanced pre-upgrade --home="./node"
 ./software/v1.16.0/provenanced --home="./node" start --log_level=warn --halt-height=13735950
-rm -rf ./data/wasm/wasm/cache
+rm -rf ./node/data/wasm/wasm/cache
 tar czf ./archive/13735950-1.16.0.tar.gz ./node/config/genesis.json ./node/config/*.toml ./node/data
 ./software/v1.16.0/provenanced --home="./node" start --log_level=warn # run until upgrade halts node
 
