@@ -1,0 +1,7 @@
+# Archive Node
+
+Building an archive node from genesis involves upgrading through the various different versions of the protocol used since genesis.  It also requires a correct configuration of the node with appropriate versions of `cleveldb` and transistions to `goleveldb` at specific blockheights.  The scripts in this folder will properly run the versions with the required configuration changes at each height.  
+
+In addition these scripts will create the appropriate backups of the node data directory at each height several blocks before an upgrade.  This is an important (and often overlooked) part of synchronizing a node.  Many different people over the years have failed to do this and been forced to start over when an upgrade has failed.  This can result in many days worth of processing time being lost.
+
+The archive node scripts rely on software releases already existing in the appropriate version folders (i.e. `./software/v1.6.0/provenanced`) or it will attempt to checkout the appropriate tag and build the software for use.  The software build process requires a fair amount of setup in the local environment.  It is recommended that the software build process be verified before using these scripts (ideally checkout and build each version in the associated folders before attempting to use the archive node scripts).

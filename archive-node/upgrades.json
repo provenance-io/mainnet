@@ -1,0 +1,18 @@
+{"upgrades":[
+    { "height": 15727333, "name": "tourmaline", "tag":"v1.18.0"},
+    { "height": 13736000, "name": "saffron", "tag":"v1.17.1"},
+    { "height": 11842000, "name": "rust", "tag":"v1.16.0"},
+    { "height": 11130222, "name": "quicksilver", "tag":"v1.15.2"},
+    { "height": 9828888, "name": "paua", "tag":"v1.14.1"},
+    { "height": 8485555, "name": "ochre", "tag":"v1.13.1"},
+    { "height": 7334444, "name": "neoncarrot", "tag":"v1.12.2"},
+    { "height": 6512577, "name": "mango", "tag":"v1.11.1"},
+    { "height": 5689885, "name": "lava", "tag":"v1.10.0"},
+    { "height": 4808400, "name": "green", "tag":" v1.8.2"},
+    { "height": 2641250, "name": "feldgrau", "tag":" v1.7.6"},
+    { "height": 2000000, "name": "usdf", "tag":" v1.6.0"},
+    { "height": 1442070, "name": "desert", "tag":" v1.5.0"},
+    { "height": 940500, "name": "citrine", "tag":" v1.4.1"},
+    { "height": 352000, "name": "bluetiful", "tag":" v1.3.1"},
+    { "height": 0, "name": "Genesis", "tag":" v1.0.1"}
+]}
