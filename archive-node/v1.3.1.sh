@@ -26,6 +26,7 @@ fi;
 ./software/v1.3.1/provenanced --home="./node" start --halt-height=940450 --log_level=warn
 rm -rf ./node/data/wasm/wasm/cache
 tar czf ./archive/940450-1.3.1.tar.gz ./node/config/genesis.json ./node/config/*.toml ./node/data
-./software/v1.3.1/provenanced --home="./node" start --log_level=warn # run until upgrade halts node
+
+./software/v1.3.1/provenanced --home="./node" start --log_level=warn || true  # run until upgrade halts node, don't exit script on upgrade panic
 
 touch ./v1.3.1-done

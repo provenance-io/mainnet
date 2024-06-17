@@ -25,6 +25,6 @@ fi;
 ./software/v1.10.0/provenanced --home="./node" start --log_level=warn --halt-height=6512525
 rm -rf ./node/data/wasm/wasm/cache
 tar czf ./archive/6512525-1.10.0.tar.gz ./node/config/genesis.json ./node/config/*.toml ./node/data
-./software/v1.10.0/provenanced --home="./node" start --log_level=warn # run until upgrade halts node
+./software/v1.10.0/provenanced --home="./node" start --log_level=warn || true  # run until upgrade halts node, don't exit script on upgrade panic
 
 touch ./v1.10.0-done
