@@ -4,7 +4,7 @@ set -ex
 # !!!!!!!!!!!!! Node Sync Processes !!!!!!!!!!!!!!!!!
 
 # if previous step not complete then exit
-if [ !  -f "./v1.12.1-done" ]; then exit 0; fi
+if [ !  -f "./v1.12.2-done" ]; then exit 0; fi
 
 # if we are already done here then don't run this file again
 if [ -f "./v1.13.1-done" ]; then exit 0; fi
