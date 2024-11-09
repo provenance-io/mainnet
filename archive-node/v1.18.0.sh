@@ -23,7 +23,9 @@ fi;
 
 # 15727333     tourmaline       v1.18.0
 ./software/v1.18.0/provenanced pre-upgrade --home="./node"
-./software/v1.18.0/provenanced --home="./node" start --log_level=warn
+./software/v1.18.0/provenanced --home="./node" start --log_level=warn --halt-height=17946780
 
-# we are not done with 1.18 yet so this isn't applicable.
-#touch ./v1.18.0-done
+tar czf ./archive/17946780-1.18.0.tar.gz ./node/config/genesis.json ./node/config/*.toml ./node/data
+./software/v1.17.1/provenanced --home="./node" start --log_level=warn || true  # run until upgrade halts node, don't exit script on upgrade panic
+
+touch ./v1.18.0-done
