@@ -1,3 +1,8 @@
 .history/
 .idea/
 chains/
+*-done
+archive-node/node/data
+archive-node/node/config
+archive-node/archive/*tar.gz
+archive-node/software/v*/

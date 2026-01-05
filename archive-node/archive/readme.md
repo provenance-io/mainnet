@@ -1,0 +1,1 @@
+Backups of the blockchain data will be created in this folder.  Ensure there are many terabytes of storage available to hold all of these backups.  It may help to remove them during the process if they are not needed any longer.

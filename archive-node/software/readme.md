@@ -1,0 +1,1 @@
+This folder should contain subfolders named with the version number of the software starting with a `v` and containing the protocol binary.  For example `./software/v1.6.0/provenanced`.  A list of the required software versions can be found in the [upgrades.json](../upgrades.json) file.

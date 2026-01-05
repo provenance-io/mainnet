@@ -1,0 +1,1 @@
+The node folder is where the blockchain node data and configuration will be created when the [start.sh](../start.sh) script is executed.
