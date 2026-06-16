@@ -12,6 +12,7 @@ Upgrades:
 
 | Height    | Name          | Version                                                                     |
 |      ---: | :---          | :---                                                                        |
+| 31593666  | edelweiss     | [v1.29.0](https://github.com/provenance-io/provenance/releases/tag/v1.29.0) |
 | 30898444  | daisy         | [v1.28.0](https://github.com/provenance-io/provenance/releases/tag/v1.28.0) |
 | 28136222  | carnation     | [v1.27.2](https://github.com/provenance-io/provenance/releases/tag/v1.27.2) |
 | 27859555  | bouvardia     | [v1.26.0](https://github.com/provenance-io/provenance/releases/tag/v1.26.0) |
