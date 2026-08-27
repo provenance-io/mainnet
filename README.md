@@ -12,6 +12,7 @@ Upgrades:
 
 | Height    | Name          | Version                                                                     |
 |      ---: | :---          | :---                                                                        |
+| 33094666  | forsythia     | [v1.30.0](https://github.com/provenance-io/provenance/releases/tag/v1.30.0) |
 | 31593666  | edelweiss     | [v1.29.0](https://github.com/provenance-io/provenance/releases/tag/v1.29.0) |
 | 30898444  | daisy         | [v1.28.0](https://github.com/provenance-io/provenance/releases/tag/v1.28.0) |
 | 28136222  | carnation     | [v1.27.2](https://github.com/provenance-io/provenance/releases/tag/v1.27.2) |
